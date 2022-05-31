@@ -78,6 +78,7 @@ class App extends Component {
               <li>Movies</li>
               <li>My List</li>
             </ul>
+            <hi>Hola Javi!</hi>
             <UserProfile user={session} />
           </div>
         </header>
