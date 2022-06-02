@@ -26,7 +26,7 @@ services:
       - MONGODB_DATABASE=okteto
       - MONGODB_HOST=mongodb
     ports:
-      - 8080
+      - 8081:8080
     volumes:
       - api:/src
     command: yarn start
