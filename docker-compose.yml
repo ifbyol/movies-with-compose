@@ -44,7 +44,7 @@ services:
     command: yarn load
     restart: never
     depends_on:
-      non-existent:
+      mongodb:
         condition: service_healthy
 
   mongodb:
