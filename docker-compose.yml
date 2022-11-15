@@ -41,7 +41,7 @@ services:
       - MONGODB_PASSWORD=mongodb123
       - MONGODB_DATABASE=okteto
       - MONGODB_HOST=mongodb
-    command: yarn load
+    command: non-existet
     restart: never
     depends_on:
       mongodb:
