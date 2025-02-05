@@ -1,2 +1,9 @@
-Makefile
-.stignore
+**
+
+!data/
+!bashrc
+!Dockerfile
+!load.js
+!package.json
+!server.json
+!yarn.lock
